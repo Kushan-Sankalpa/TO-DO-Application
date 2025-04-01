@@ -77,4 +77,31 @@
         padding: 5px;
         font-family: 'Candal', sans-serif;
         background-color: rgb(51, 212, 100);
+
+        .todo-list-item .cancel {
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 5px;
+            font-family: 'Candal', sans-serif;
+            background-color: rgb(223, 43, 43);
+            margin-left: 5px;
+            }
+            .todo-list-item div {
+            flex-grow: 2;
+            }
+            .todo-list-item .edit {
+            color: rgb(143, 233, 58);
+            margin-right: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            }
+            .todo-list-item .remove {
+            color: rgb(243, 96, 96);
+            margin-right: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            }
 }
