@@ -5,6 +5,8 @@ const app = express(); // this is our express application
 
 //set up a route 
 app.get('/', (req, res) => { // This tells the app to do something when someone visits the root URL ("/")
+                             // req ; repersent the request that came from the visitor
+                             // res ; repersent the response that will be sent back to the visitor
     res.send('Hello World!');
 });
 
